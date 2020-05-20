@@ -9,6 +9,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
+
             <h1>User information:</h1>
             <br />
             <asp:Panel ID="enterUserInfoPanel" runat="server">

@@ -11,7 +11,7 @@ namespace RegistrationSQLServer
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         protected void EnterInfoButton_OnClick(object sender, EventArgs e)
@@ -35,5 +35,7 @@ namespace RegistrationSQLServer
                     this.lblResultMessage.Text = "There was an error on inserting the user information!!!!!!";
             }
         }
+
+    
     }
 }
